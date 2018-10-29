@@ -1,0 +1,57 @@
+useradd-- Create a new user(ex: useradd naveen)
+userdel	-- Deletes a user(ex: userdel –r naveen)
+passwd	-- Sets password or change password of current user
+id	-- To display details about user (ex: id naveen)
+ls	-- Lists all file
+-l 	-- Detailed list
+-a 	-- displays hidden files
+cp	-- Copy file/files(ex: cp a.txt b.txt)
+-i	--waits for confirmation before writing the file
+-r 	--copies recursively including subdirectories
+mv	-- Moves/Renames file(ex: mv a.txt b.txt)
+rm	-- Removes specified files(ex:rm a.txt ; rm –rf /tmp/test)
+-rf	--deletes subdirectories forcefully
+pwd	-- Displays present working directory
+cd 	-- changes the current directory 
+cd ..	--changes to one directory above pwd
+cd -	--changes to previous pwd
+cd ~	--changes to users home directory
+cd 	-- changes the current directory
+rmdir	-- Deletes empty directory
+ln	-- Creates an internal link between sourcefile to the target file
+-s	--creates a symbolic link/soft link
+mkdir	-- Create a directory
+chown	-- To change ownership of files/directories
+-R	--Changes files and directories in all subdirectories
+chmod	-- Changes the access permissions.
+
+
+cat	-- displays the contents of a file
+less 	-- browse the contents of the specified file with scroll option
+Scroll half a screen page up or down with PgUp and PgDn or a full screen page down with Space
+grep	-- finds a specific searchstring in the specified file(s).(ex: grep –r Naveen /tmp )
+-i	-- Ignores case
+-l	-- Only displays the names of the respective files, but not the text lines
+-r	-- Recursively searches all files inside the direcotry
+find	-- search for a file in a given directory (ex:find /home -name a.txt)
+diff	-- compares the contents of any two files.(ex: diff a.txt b.txt)
+mount	-- mount any media, such as hard disks, CD-ROM drives,  to a directory
+umount -- unmounts a mounted drive from the file system
+df	-- displays information about the total disk space
+-h	--shows number in GB or MB or KB
+du	-- shows the total disk space occupied by files and subdirectories
+free	-- free displays information about RAM and swap space usage
+date	-- displays the current system time.
+top	-- provides a quick overview of the currently running processes.
+ps	-- Displays a detailed list of all processes
+ps –aux --Displays a detailed list of all processes, independent of the owner.
+kill	-- To kill a running process
+-9	--Gracefully shuts down the process
+ping	-- testing the basic functionality of TCP/IP networks
+nslookup-- resolves domain names to IP addresses
+telnet	-- used for interactive communication with another host
+reboot	-- Reeboots the system
+shutdown	-- Shutdown the system
+clear	-- cleans up the visible area of the console
+tar	-- To compress/decompress files
+zip/unzip	-- To compress/decompress files
